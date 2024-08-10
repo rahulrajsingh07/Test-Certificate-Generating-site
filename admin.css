@@ -1,0 +1,285 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.top{
+    height: 26vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42, 39, 39);
+    border-bottom: 2px double rgb(30, 28, 28);
+    box-shadow: 2px 2px black;
+}
+.topleft{
+    height: 100%;
+    width: 25%;
+}
+.logo{
+    height: 80% ;
+    width: 50%;
+    padding-top: 5%;
+    margin-left: 14%;
+    transition-duration: 1s;
+}
+.logo:hover{
+    transform:scale(1.15); 
+}
+.compname{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 3%;
+    color:white;
+    font-family:serif;
+}
+.compname h3{
+    color:rgb(246, 239, 165);
+}
+.mainsec{
+    min-height: 140vh;
+    min-width: 100vw;
+    background-image:url(login-box-finger-pushing-username-password-fields-office-background-62243752.webp);
+    background-blend-mode: darken;
+    background-size:contain;
+    /*display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.logo2{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 38vh;
+    background-color: rgb(42, 39, 39);
+    width: 100vw;
+}
+.contact{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border-left: 3px solid white;
+    font-size: large;
+}
+.contact h1{
+ text-align: center;
+}
+.contact h3{
+    font-size: x-large;
+}
+.mainsec h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 4px black inset;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.login{
+    min-height: 60vh;
+    min-width: 70vw;
+    background-color: rgb(42, 39, 39);
+    border-radius: 10px;
+    color: azure;
+    padding: 2%;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px rgb(255, 213, 136);
+    
+}
+#myform1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.lab{
+    margin: 2%;
+    font-size: 21px;
+}
+.fields{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0.8%;
+    margin-top: 3%;
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+}
+
+.sub{
+    background-color: rgb(247, 239, 239);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 5vh;
+    width: 10%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+
+}
+.isi{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.isi img{
+    height: 70%;
+    margin-left: 3%;
+}
+
+.sub:hover{
+    cursor: pointer;
+    background-color: rgb(146, 147, 148);
+}
+
+fieldset{
+    border-radius: 15px;
+}
+.sub1{
+    background-color: rgb(241, 236, 236);
+    border-radius:20px;
+    height: 5vh;
+    width: 15%;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+.sub1:hover{
+    cursor: pointer;
+    background-color: rgb(146, 147, 148);
+}
+.ab{
+    margin-top: 5%;
+}
+.me{
+    border-radius: 10px;
+    padding: 0.8%;
+    margin-top: 3%;
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+}
+.heading:hover{
+    color: yellow;
+}
+.heading{
+    transition-duration: 1.5s;
+}
+.myhead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn1{
+    height: 5vh;
+    width: 15%;
+    background-color: rgb(223, 248, 248);
+    border: 2px solid yellow;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color:rgb(209, 224, 224);
+}
+@media screen and (max-width: 1000px) {
+    .compname {
+        padding-top: 1%; /* Adjust padding for smaller top space */
+    }
+
+    .compname h1 {
+        font-size: 22px; /* Decrease font size for smaller screens */
+    }
+
+    .compname h3 {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    .head1 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 0px 4px 4px black inset;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition-duration: 2s;
+    }
+    .lab{
+        font-size: 1em;
+        margin: 1%;
+    }
+    .topleft{
+        height: 100%;
+        width: 30%;
+    }
+    .topleft img{
+        height: 80%;
+        width: 70%;
+    }
+    .compname{
+        width: 45%;
+        height: 90%;
+        padding-top: 2%;
+    }
+    .hed1{
+        font-size: 2em;
+        color: rgb(255, 232, 103);
+    }
+    .logo2{
+        height: 60%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo2 img{
+        height: 90%;
+        width: 90%;
+        justify-content: center;
+    }
+    .isi img{
+        height: 45%;
+        margin-left: 1%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 26vh;
+        background-color: rgb(42, 39, 39);
+        width: 100vw;
+    }
+    .contact{
+        height: 80%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        border-left: 3px solid white;
+        font-size: small;
+    }
+    .contact h1{
+     text-align: center;
+    }
+    .contact h3{
+        font-size: medium;
+    }
+    .btna{
+        font-size: small;
+        padding: 1%;
+    }
+    .mainsec{
+        height: 150vh;
+    }
+}

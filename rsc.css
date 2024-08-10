@@ -1,0 +1,348 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.top{
+    height: 26vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42, 39, 39);
+    border-bottom: 2px double rgb(30, 28, 28);
+    box-shadow: 2px 2px black;
+    align-items: center;
+}
+.topleft{
+    height: 100%;
+    width: 25%;
+}
+.logo{
+    height: 80% ;
+    width: 50%;
+    padding-top: 5%;
+    margin-left: 14%;
+    transition-duration: 1s;
+}
+.logo:hover{
+    transform:scale(1.15); 
+}
+.compname{
+    width: 50%;
+    height: 90%;
+    text-align: center;
+    padding-top: 2%;
+    color:white;
+    font-family:serif;
+}
+.compname h3{
+    color:rgb(246, 239, 165);
+    height: 20%;
+}
+.isi{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.isi img{
+    height: 70%;
+    margin-left: 3%;
+}
+.mainsec{
+    min-width: 100vw;
+    background-image:url(basic.webp);
+    background-blend-mode: darken;
+
+}
+.my{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10%;
+}
+.myform{
+    width:80%;
+    min-height: 90%;
+}
+.logo2{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 38vh;
+    background-color: rgb(42, 39, 39);
+    width: 100vw;
+}
+.contact{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border-left: 3px solid white;
+    font-size: large;
+}
+.contact h1{
+ text-align: center;
+}
+.contact h3{
+    font-size: x-large;
+}
+.head1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 4px black inset;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 2s;
+}
+.head1:hover{
+    color: yellow;
+}
+.myform{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+.login{
+    min-height: 160vh;
+    min-width: 70vw;
+    background-color: rgb(42, 39, 39);
+    border-radius: 10px;
+    color: azure;
+    padding: 2%;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px rgb(255, 213, 136);
+    
+}
+#myform1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.lab{
+    font-size: 1.3em;
+    margin: 2%;
+}
+.fields{
+    border-radius: 10px;
+    padding: 0.6%;
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+}
+
+.sub{
+    background-color: rgb(247, 239, 239);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 5vh;
+    width: 10%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+
+}
+.sub:hover{
+    cursor: pointer;
+    background-color: rgb(146, 147, 148);
+}
+
+fieldset{
+    border-radius: 15px;
+    min-height: 100%;
+}
+.sub1{
+    background-color: rgb(241, 236, 236);
+    border-radius:20px;
+    height: 5vh;
+    width: 15%;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+.sub1:hover{
+    cursor: pointer;
+    background-color: rgb(146, 147, 148);
+}
+.ab{
+    margin-top: 3%;
+}
+.me{
+    border-radius: 10px;
+    padding: 0.8%;
+    margin-top: 3%;
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+}
+.heading:hover{
+    color: yellow;
+}
+.hed1{
+font-size: 50px;
+color: rgb(255, 232, 103);
+}
+.fields2{
+    border-radius: 10px;
+    padding: 0.6%;
+    border: 2px solid black;
+    width: 20%;
+    height: 30%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+}
+h2{
+    font-size: 35PX;
+    color: rgb(245, 122, 50);
+}
+.properties1{
+    width: 50%;
+}
+.me1{
+    display: flex;
+    justify-content: space-around;
+}
+.fields3{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 30%;
+    height: 5%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+    padding: 0.6%;
+}
+.fields4{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 72%;
+    height: 4%;
+    box-shadow: 0px 0px 2px 2px rgb(48, 210, 255);
+    padding: 0.6%;
+}
+#myform2{
+    min-height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    
+}
+.login2{
+    background-color: rgb(42, 39, 39);
+    border-radius: 10px;
+    color: azure;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 0px 0px 3px 3px rgb(255, 213, 136);
+    width: 70%;
+    height: 80%;
+}
+.btna{
+    font-size: large;
+    padding: 0.8%;
+    border-radius:20px;
+    border: 2px solid rgb(227, 240, 84);
+    background-color: rgb(32, 31, 29);
+    color: white;
+}
+.btna:hover{
+    background-color: rgb(68, 71, 71);
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+    .compname {
+        padding-top: 1%; /* Adjust padding for smaller top space */
+    }
+
+    .compname h1 {
+        font-size: 22px; /* Decrease font size for smaller screens */
+    }
+
+    .compname h3 {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    .head1 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 0px 4px 4px black inset;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition-duration: 2s;
+    }
+    .lab{
+        font-size: 1em;
+        margin: 1%;
+    }
+    .topleft{
+        height: 100%;
+        width: 30%;
+    }
+    .topleft img{
+        height: 80%;
+        width: 70%;
+    }
+    .compname{
+        width: 45%;
+        height: 90%;
+        padding-top: 2%;
+    }
+    .hed1{
+        font-size: 2em;
+        color: rgb(255, 232, 103);
+    }
+    .logo2{
+        height: 60%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo2 img{
+        height: 90%;
+        width: 90%;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 26vh;
+        background-color: rgb(42, 39, 39);
+        width: 100vw;
+    }
+    .contact{
+        height: 80%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        border-left: 3px solid white;
+        font-size: small;
+    }
+    .contact h1{
+     text-align: center;
+    }
+    .contact h3{
+        font-size: medium;
+    }
+    .btna{
+        font-size: small;
+        padding: 1%;
+    }
+    .isi img{
+        height: 45%;
+        margin-left: 1%;
+    }
+}
